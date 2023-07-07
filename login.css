@@ -1,0 +1,72 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    color: blue;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.login_page{
+    padding-top: 10vh;
+    padding-left: 12vw;
+    padding-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    margin: 100px 0;
+}
+.btn_login{
+    padding: 10px 60px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 20px;
+    background-color: #0F038D;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.login_banner{
+    width: inherit;
+}
+.banner_cont{
+    width: 40vw;
+}
+
+input, input:focus{
+    border: 2px solid rgb(164, 166, 167);
+    width: 280px;
+    padding: 10px 15px;
+    background-color: rgb(245, 245, 245);
+}
+.login_title{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.login_quote{
+    font-size: 15px;
+    color: slategrey;
+    margin-bottom: 25px;
+}
+.frgt_cont{
+    width: 330px;
+    text-align: right;
+    /* border: 2px solid black; */
+}
+
+.frgt_p{
+    font-size: 12px;
+    color: darkgray;
+}
+.email_cont, .frgt_cont{
+    margin-bottom: 25px;
+}
+.pass_cont{
+    margin-bottom: 10px;
+}
