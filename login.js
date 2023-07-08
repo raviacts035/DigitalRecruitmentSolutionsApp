@@ -1,14 +1,21 @@
 async function handleLogin(event){
     event.preventDefault()
     const email=event.target.elements.email.value;
-    const responce=await fetch('https://dummyjson.com/auth/login', {
+    const password=event.target.elements.password.value
+    const responce=await fetch('https://reqres.in/api/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+    })
+    })
+    
+    // body: JSON.stringify({
         
-        username: 'kminchelle',
-        password: '0lelplR',
-    })
-    })
-    if (responce) window.location.href = '/index.html'
+    //     username: email,
+    //     password: password,
+    // })
+    console.log(responce)
+    if (responce) window.location.href = './dashbord.html'
 }
