@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./dashbord.css">
+    <link rel="stylesheet" href="./candidates.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recruiter Dashbord | RecruIT</title>
+</head>
+<body>
+    <section class="dashbord_cont">
+        <!-- side bar -->
+        <aside class="nav_cont">
+            <div>
+                <a href="./index.html"><h1 class="logo">RecruIT</h1></a>
+            </div>
+            <div class="nav_item">
+                <a href="./dashbord.html"><p>dashbord</p></a>
+            </div>
+            <div class="nav_item  bg_shade">
+                <a href="./candidates.html"><p>Candidate</p></a>
+            </div>
+            <div class="nav_item">
+                <p>Open Roles</p>
+            </div>
+            <div class="nav_item">
+                <p>Interviews</p>
+            </div>
+            <div class="nav_item">
+                <p>Calender</p>
+            </div>
+            <div class="nav_item">
+                <p>Logout</p>
+            </div>
+        </aside>
+        <!-- main hero section -->
+        <section class="hero_container">
+            <div class="heading_cont">
+                <h1>Candidate</h1>
+                <div class="hello_cont">
+                    <p>Hello, Recruiter</p>
+                    <div class="profile_img_cont1"><img class="profile_img1" src="./assets/recruiter_dp1.jpg" alt=""></div>
+                </div>
+            </div>
+            <hr>
+            <section class="search_section">
+                <div  class="search_cont">
+                    <input type="text" class="srch_bar" id="search" placeholder="search">
+                    <button onclick=handleSearch()>Search</button>
+                </div>
+            </section>
+            <article class="hero_body" id="canidate_pool">
+                <!-- cards added here by script -->
+            </article>
+        </section>
+    </section>
+    <script src="./FetchedDummyCandidateList.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

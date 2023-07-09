@@ -22,19 +22,20 @@ button:hover{
     font-size: 32px;
     margin-bottom: 50px;
 }
-body{
-}
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 .dashbord_cont{
     background-color: #e1f0ff;
     display: flex;
     padding: 0 2px;
+    min-height: 100vh;
 }
 .nav_cont{
     height: 80vh;
+    min-width: 100px;
     width: 12vw;
     padding: 2% 0;
     padding-left: 2%;
@@ -47,11 +48,13 @@ a{
     background-color: #e1f0ff;
 }
 .nav_item{
-    /* border: 2px solid lightslategray; */
-    width: 95%;
+    border: 2px solid #e1f0ff;
+    width: 100%;
+    border-right: #ffff;
+    border-bottom-left-radius: 5px;
     padding: 5px 5px;
     text-align: start;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
     font-size: 20px;
     margin: 20px 0;
     cursor: pointer;

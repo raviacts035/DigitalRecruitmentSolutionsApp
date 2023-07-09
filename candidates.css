@@ -1,0 +1,55 @@
+.cand_card_margin{
+    border: 2px solid black;
+}
+.candidate_card2{
+    padding: 10px 10px;
+    background-color: #ffff;
+    width: 40%;
+    margin: 10px 0;
+}
+.flex_cont{
+    display: flex;
+    gap: 15px;
+}
+.flex_between{
+    justify-content: space-between;
+}
+/* need to change */
+.profile_img_cont2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.person_name{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.line_margin{
+    margin: 10px 0;
+}
+.search_cont{
+    margin: 30px auto;
+    width: fit-content;
+}
+.srch_bar{
+    max-width: 500px;
+    width: 30vw;
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #e1f0ff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.search_cont button{
+    height: 40px;
+    padding: 5px 30px;
+    border: 1px solid #e1f0ff;
+    border-radius: 10px;
+    background-color: #0c036b;
+    color: #ffff;
+    font-size: 18px;
+}
