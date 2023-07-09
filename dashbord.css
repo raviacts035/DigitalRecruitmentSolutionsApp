@@ -1,0 +1,140 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    padding: 0 14vw;
+    color: #0c036b;
+
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.2;
+    /* animation-duration: 200ms; */
+    transition-duration: 300ms;
+}
+
+.logo{
+    color: #0c036b;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+body{
+}
+
+a{
+    text-decoration: none;
+}
+.dashbord_cont{
+    background-color: #e1f0ff;
+    display: flex;
+    padding: 0 2px;
+}
+.nav_cont{
+    height: 80vh;
+    width: 12vw;
+    padding: 2% 0;
+    padding-left: 2%;
+    padding-right: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ffff;
+}
+.bg_shade{
+    background-color: #e1f0ff;
+}
+.nav_item{
+    /* border: 2px solid lightslategray; */
+    width: 95%;
+    padding: 5px 5px;
+    text-align: start;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.profile_img_cont1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.profile_img1{
+    width: inherit;
+}
+.heading_cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.heading_cont h1{
+    font-size: 36px;
+}
+.hello_cont{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero_container{
+    width: 100%;
+    padding: 0 30px;
+}
+.hero_body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dashbord_card1{
+    background-color: #ffff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.border_box{
+    border: 1px solid #ffff;
+}
+.up_symbol{
+    padding: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid green;
+    color: green;
+}
+.down_symbol{
+    padding: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid red;
+    color: red;
+}
+.text_green{
+    color: green;
+}
+.text_red{
+    color: red;
+}
+.text_yellow{
+    color: yellow;
+}
+
+.card_title{
+    font-size: 22px;
+    color: #0c036b;
+}
+.margin_10{
+    margin: 15px 0;
+}
+.num_font{
+    font-size: 32px;
+    font: 800;
+}
